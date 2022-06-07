@@ -2,6 +2,7 @@
     &-wrapper {
         max-width: 900px;
         margin: 20px auto;
+        position: relative;
     }
     ::ng-deep mwl-gauge {
         width: 150px;
@@ -48,7 +49,7 @@
     }
     &-header {
         &-title {
-            font: 70px;
+            font-size: 70px;
             color: #ffffff;
             font-weight: 700;
             line-height: 70px;

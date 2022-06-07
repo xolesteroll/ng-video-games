@@ -21,7 +21,7 @@
                     <mwl-gauge class="two" [max]="100" [dialStartAngle]="180" [dialEndAngle]="0" [value]="gameRating"
                         [animated]="true" [color]="getColor" [animationDuration]="2">
                     </mwl-gauge>
-                    <a class="details-gauge-label" target="_blank" href="#">Metacritic</a>
+                    <a *ngIf="game.metacritic_url" class="details-gauge-label" target="_blank" href="{{game.metacritic_url}}">Metacritic</a>
                 </div>
             </div>
         </div>
